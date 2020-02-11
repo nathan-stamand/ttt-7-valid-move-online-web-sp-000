@@ -5,6 +5,7 @@ def valid_move?(board, index)
     return false
   elsif board[index] > 8
     return false
+  elsif board[index] == nil
   else
     return true
   end
